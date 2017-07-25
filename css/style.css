@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat | Libre+Baskerville:400,700');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+.centered{
+	text-align: center;
+}
+.navbar-color{
+	background-color: #fff !important;
+}
+.navbar-brand{
+	width: 50%;
+}
+.navbar-right>li>a{
+	font-family: Geneva, Arial, Helvetica;
+	font-size: 14px;
+	font-weight: 600;
+	color:#777;
+}
+.navbar-right>li>a:hover{
+	color: #AAA;
+	background-color: #FFF;
+}
+.nav .open>a, .nav>li>a:focus, .nav>li>a:active{
+background-color: #FFF !important;
+}
+[class*="col-"]{
+	padding-top: 50px;	
+}
+
+.fa-spinner{ 
+position: absolute; 
+	top:50%;
+	left: 50%; 
+	color: #AAA;
+}
+.col-first{
+	transition: 2s;
+	background: #00b3b3;
+}
+.col-second{
+	transition: 2s;
+	background: #009999;
+}
+
+.col-third{
+	transition: 2s;
+	background: #008080;
+}
+
+.col-first:hover{
+	background: #AAA;
+}
+.col-second:hover{
+	background: #AAA;
+}
+.col-third:hover{
+	background: #AAA;
+}
+.image-center{
+
+	padding-top: 30%;
+	padding-left: 20%;
+		
+}
+.size-img{
+	width: 50%;
+}
+.size-logo{
+	max-width: 115px;
+}
+.wrap{
+	background-color: #999;
+}
+.info{
+	padding-top: 40px;
+	font-size: 48px;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+}
+#dg{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+1,eaeaea+100 */
+background: #fcfcfc; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcfcfc 1%, #eaeaea 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fcfcfc 1%,#eaeaea 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fcfcfc 1%,#eaeaea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+
+
+	
+	padding-top: 40px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+#dg h4{
+	font-size: 40px;
+}
+.no-pad-top{
+ 	padding-top: 10px;"
+}
+.tilt{
+	-webkit-transition: all 0.5 ease;
+	-moz-transition: all 0.5 ease;
+	-o-transition: all 0.5 ease;
+	-ms-transition: all 0.5 ease;
+	transition: all 0.5 ease;
+}
+.tilt:hover{
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);	
+}

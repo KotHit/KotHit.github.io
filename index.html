@@ -9,6 +9,11 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/demo.css">
+  <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+  
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,14 +23,533 @@
     <![endif]-->
   </head>
   <body>
+  
+<!--NavBar menu -->
+
+<div class="navbar navbar-color navbar-static-top">
+<div class="container-fluid">
+  <div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+    <span class="sr-only">Open navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>  
+  </button>
+
+    <a href="#" class="navbar-brand"><img src="img/logo.png" class="size-logo" alt=""></a> 
+  </div>
+  <div class="collapse navbar-collapse" id="responsive-menu">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#" id="green-tab"> PRE-INSTALLED LAYOUTS</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">BOOTSTRAP 3.0 LAYOUTS #1 <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Point 1</a></li>
+          <li><a href="#">Point 2</a></li>
+          <li><a href="#">Point 3</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Point 4</a></li>
+        </ul>
+      </li>
+      <li><a href="#">BOOTSTRAP 3.0 LAYOUTS #2</a></li>
+      <li><a href="#">BOOTSTRAP 3.0 LAYOUTS #3</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+
+
+<!--Big Slider -->
+
+<div id="carousel" class="carousel slide">  
+  <ol class="carousel-indicators">
+    <li class="active" data-target="#carousel" data-slide-to="0"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/slider4.jpg">
+      <div class="carousel-caption">
+        <h3>Fisrt slide</h3>
+        <p>First slide description</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/slider4.jpg">
+      <div class="carousel-caption">
+        <h3>Second slide</h3>
+        <p>Second slide description</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/slider4.jpg">
+      <div class="carousel-caption">
+        <h3>Third slide</h3>
+        <p>Third slide description</p>
+      </div>
+    
+</div>
+  </div>
+    <a href="#carousel" class="left carousel-control" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>  
+    </a>
+
+    <a href="#carousel" class="right carousel-control" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  
+</div>
+
+
+
+<!--Page title -->
   <div class="container">
-    <h1>Hello, world!</h1>
+    <div class="row">
+      <h1 class="info">Cool fonts from GOOGLE</h1>
+      
+    </div>
+  </div>
+
+
+
+
+<!--Grid Layout 
+
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-5 col-first " >
+      
+    </div>
+
+    <div class="col-md-4 col-second">
+     <div class="image-center"> <img src="img/amazon-a.png" class="size-img" onmouseover="this.src='img/amazon.png'" onmouseout="this.src='img/amazon-a.png'"> </div>
+    </div> 
+
+    <div class="col-md-3 col-third">
+      
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+  <a href="#spoiler-1" data-toggle="collapse" class="btn btn-primary">Show hidden text</a>
+    <div class="collapse" id="spoiler-1">
+      <div class="well">
+        <p>Some text</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3"></div>
+</div>
+
+  -->
+
+<div class="container">
+  <div class="row centered">
+    <div class="col-md-6">
+       <h1>Amazon</h1>
+       <img src="img/amazon.png" class="size-img" onmouseover="this.src='img/amazon-mouse.png'" onmouseout="this.src='img/amazon.png'">
+        <p>Amazon.com, Inc. — американская компания, крупнейшая в мире по обороту среди продающих товары и услуги через Интернет и один из первых интернет-сервисов, ориентированных на продажу реальных товаров массового спроса</p>
+    </div>
+    <div class="col-md-6">
+      <h1>Docker</h1>
+       <img src="img/docker.png" class="size-img" onmouseover="this.src='img/docker-mouse.png'" onmouseout="this.src='img/docker.png'">
+        <p>Docker — программное обеспечение для автоматизации развёртывания и управления приложениями в среде виртуализации на уровне операционной системы. Позволяет «упаковать» приложение со всем его окружением и зависимостями в контейнер.</p>
+    </div>
+  </div>
+
+  <div class="row centered">
+    <div class="col-md-6">
+       <h1>Python</h1>
+       <img src="img/python.png" class="size-img" onmouseover="this.src='img/python-mouse.png'" onmouseout="this.src='img/python.png'">
+        <p>Python в русском языке распространено название пито́н) — высокоуровневый язык программирования общего назначения, ориентированный на повышение производительности разработчика и читаемости кода. Синтаксис ядра Python минималистичен. В то же время стандартная библиотека включает большой объём полезных функций.</p>
+    </div>
+    <div class="col-md-6">
+      <h1>HTML5 & CSS3</h1>
+       <img src="img/htmlcss.png" class="size-img" onmouseover="this.src='img/htmlcss-mouse.png'" onmouseout="this.src='img/htmlcss.png'">
+        <p>HTML (от англ. HyperText Markup Language — «язык гипертекстовой разметки») — стандартизированный язык разметки документов во Всемирной паутине. Большинство веб-страниц содержат описание разметки на языке HTML (или XHTML). CSS (Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида документа, написанного с использованием языка разметки.</p>
+      
+    </div>
+  </div>
+</div>
+
+<br>
+
+
+<!--Portfolio -->
+<div id="dg">
+  <div class="container">
+    <div class="row " >
+      <h4>My projects</h4>
+      <div class="col-lg-4 no-pad-top">
+        <div class="tilt">
+          <a href="#"><img src="img/iphone1.png" class="img-responsive"></a>
+        </div>
+
+      </div>
+        <div class="col-lg-4 no-pad-top">
+        <div class="tilt">
+          <a href="#"><img src="img/iphone2.png" class="img-responsive"></a>
+        </div>
+      </div>
+        <div class="col-lg-4 no-pad-top">
+        <div class="tilt">
+          <a href="#"><img src="img/iphone3.png" class="img-responsive"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End Portfolio -->
+   
+
+<!-- Buttons -->
+
+<div class="container-fluid">
+<div class="row centered">
+<h1 class="info">Some information about IT</h1>
+  <div class="col-md-4">
+    
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-htmlcss">HTML&CSS</button>
+       <!-- Modal -->
+      <div class="modal fade" id="modal-htmlcss" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">HTML5&CSS3</h4>
+            </div>
+            <div class="modal-body">
+              <p>HTML (от англ. HyperText Markup Language — «язык гипертекстовой разметки») — стандартизированный язык разметки документов во Всемирной паутине. Большинство веб-страниц содержат описание разметки на языке HTML (или XHTML).<br>CSS (Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида документа, написанного с использованием языка разметки.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-success btn-md" data-toggle="modal" data-target="#modal-wordpress">Wordpress</button>
+       <!-- Modal -->
+      <div class="modal fade" id="modal-wordpress" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Wordpress</h4>
+            </div>
+            <div class="modal-body">
+              <p>WordPress — система управления содержимым сайта с открытым исходным кодом; написана на PHP; сервер базы данных — MySQL; выпущена под лицензией GNU GPL версии 2. Сфера применения — от блогов до достаточно сложных новостных ресурсов и интернет-магазинов.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#modal-bootstrap">Bootstrap</button>
+       <!-- Modal -->
+      <div class="modal fade" id="modal-bootstrap" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Bootstrap</h4>
+            </div>
+            <div class="modal-body">
+              <p>Bootstrap (также известен как Twitter Bootstrap) — свободный набор инструментов для создания сайтов и веб-приложений. Включает в себя HTML- и CSS-шаблоны оформления для типографики, веб-форм, кнопок, меток, блоков навигации и прочих компонентов веб-интерфейса, включая JavaScript-расширения.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button type="button" href="#" class="btn btn-info btn-xs" data-toggle="modal" data-target="#modal-javascript">Javascript</button>
+       <!-- Modal -->
+      <div class="modal fade" id="modal-javascript" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Javascript</h4>
+            </div>
+            <div class="modal-body">
+              <p>JavaScript – это язык программирования, который добавляет интерактивность на ваш веб-сайт (например: игры, отклик на нажатые кнопки или при вводе данных в формы, динамические стили, анимация).</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    
+  </div>
+  <div class="col-md-4">
+      <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#modal-s3">S3 Buckets</button>
+      <!-- Modal -->
+      <div class="modal fade" id="modal-s3" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">S3 Buckets</h4>
+            </div>
+            <div class="modal-body">
+              <p>Amazon S3 is cloud storage for the Internet. To upload your data (photos, videos, documents etc.), you first create a bucket in one of the AWS Regions. You can then upload any number of objects to the bucket.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#modal-ec2">EC2</button>
+      <!-- Modal -->
+      <div class="modal fade" id="modal-ec2" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">EC2</h4>
+            </div>
+            <div class="modal-body">
+              <p>Amazon Elastic Compute Cloud (Amazon EC2) — веб-сервис, который предоставляет вычислительные мощности в облаке. Сервис входит в инфраструктуру Amazon Web Services.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#modal-dynamo">Dynamo DB</button>
+      <!-- Modal -->
+      <div class="modal fade" id="modal-dynamo" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Dynamo DB</h4>
+            </div>
+            <div class="modal-body">
+              <p>Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability. DynamoDB lets you offload the administrative burdens of operating and scaling a distributed database, so that you don't have to worry about hardware provisioning, setup and configuration, replication, software patching, or cluster scaling.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </div>
+  <div class="col-md-4">
+      <button type="button" class="btn btn-info btn-xs" data-toggle="modal" data-target="#modal-mysql">MySQL DB</button>
+      <!-- Modal -->
+      <div class="modal fade" id="modal-mysql" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">MySQL DB</h4>
+            </div>
+            <div class="modal-body">
+              <p>MySQL — свободная реляционная система управления базами данных. Разработку и поддержку MySQL осуществляет корпорация Oracle, получившая права на торговую марку вместе с поглощённой Sun Microsystems, которая ранее приобрела шведскую компанию MySQL AB. Продукт распространяется как под GNU General Public License, так и под собственной коммерческой лицензией. </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#modal-linux">Linux</button>
+      <!-- Modal -->
+      <div class="modal fade" id="modal-linux" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Linux</h4>
+            </div>
+            <div class="modal-body">
+              <p>Linux — семейство Unix-подобных операционных систем на базе ядра Linux, включающих тот или иной набор утилит и программ проекта GNU, и, возможно, другие компоненты. Как и ядро Linux, системы на его основе как правило создаются и распространяются в соответствии с моделью разработки свободного и открытого программного обеспечения. </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button type="button" class="btn btn-success btn-md" data-toggle="modal" data-target="#modal-docker">Docker</button>
+      <!-- Modal -->
+      <div class="modal fade" id="modal-docker" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Docker</h4>
+            </div>
+            <div class="modal-body">
+              <p>Docker — программное обеспечение для автоматизации развёртывания и управления приложениями в среде виртуализации на уровне операционной системы. Позволяет «упаковать» приложение со всем его окружением и зависимостями в контейнер, который может быть перенесён на любую Linux-систему с поддержкой cgroups в ядре, а также предоставляет среду по управлению контейнерами.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal-python">Python</button>
+      <!-- Modal -->
+      <div class="modal fade" id="modal-python" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Python</h4>
+            </div>
+            <div class="modal-body">
+              <p>Python в русском языке распространено название пито́н) — высокоуровневый язык программирования общего назначения, ориентированный на повышение производительности разработчика и читаемости кода. Синтаксис ядра Python минималистичен. В то же время стандартная библиотека включает большой объём полезных функций.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<!-- End Buttons -->
+
+
+<div id="comp">
+  <div class="container">
+    <div class="row centered">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h1>Some Images</h1>
+        <h4>Don't worry about this text</h4>
+      </div>
+      <div class="col-lg-10 col-lg-offset-1 no-pad-top">
+        <img src="img/imac1.png" >
+        <p>Sometimes her behaviour are contented. </mark> Do listening am eagerness oh objection collected. Together gay feelings continue juvenile had off one. Unknown may service subject her letters one bed. Child years noise ye in forty. Loud in this in both hold. My entrance me is disposal bachelor remember relation.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+    <h1>Hello, world! This is my first site on bootstrap!</h1>
+    <br>
+<!--col-sm-3 col-xs-12 -->
+
+<p> <mark> Sometimes her behaviour are contented. </mark> Do listening am eagerness oh objection collected. Together gay feelings continue juvenile had off one. Unknown may service subject her letters one bed. Child years noise ye in forty. Loud in this in both hold. My entrance me is disposal bachelor remember relation. </p>
+
+<p>Feet evil to hold long he open knew an no. Apartments occasional boisterous as solicitude to introduced. Or fifteen covered we enjoyed demesne is in prepare. In stimulated my everything it literature. Greatly explain attempt perhaps in feeling he. House men taste bed not drawn joy. Through enquire however do equally herself at. Greatly way old may you present improve. Wishing the feeling village him musical.
+</p>
+<br>
+<h4> Yes, i'm chitting and copy-paste this footer from another site <i class="fa fa-arrow-down"></i> </h4> 
+</div>
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>Company<span>logo</span></h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          ·
+          <a href="#">Blog</a>
+          ·
+          <a href="#">Pricing</a>
+          ·
+          <a href="#">About</a>
+          ·
+          <a href="#">Faq</a>
+          ·
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">Company Name &copy; 2015</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>21 Revolution Street</span> Paris, France</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+1 555 123456</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">support@company.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the company</span>
+          Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-	
 	</div>
   </body>
 </html>
